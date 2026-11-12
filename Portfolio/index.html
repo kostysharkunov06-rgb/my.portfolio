@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="logo">MyDev</div>
+    <nav class="nav">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <!-- Главный экран -->
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <h1>Привет, я веб-разработчик</h1>
+      <p>Верстаю современные, адаптивные сайты на HTML и CSS.</p>
+      <button class="btn">Связаться со мной</button>
+    </div>
+    <div class="hero-img">
+      <!-- Здесь будет ваше фото или аватар -->
+      <img src="img/Avatar.png" alt="Мое фото">
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <h2 class="section-title">Мои навыки</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>HTML5</h3>
+        <p>Создание семантической и доступной структуры сайта.</p>
+      </div>
+      <div class="skill-card">
+        <h3>CSS3</h3>
+        <p>Адаптивная верстка, Flexbox, Grid, анимации и стили.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Java</h3>
+        <p>Базовые знания синтаксиса, ООП и логики программирования.</p>
+      </div>
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <h2 class="section-title">Мои проекты</h2>
+    <div class="projects-grid">
+
+      <!-- Проект 1 -->
+      <div class="project-card">
+        <div class="project-img-wrapper">
+          <!-- Сюда можно будет временно поставить ту же киберпанк-картинку -->
+          <img src="img/avatar.png" alt="Макет сайта">
+        </div>
+        <div class="project-info">
+          <h3>Landing Page для кофейни</h3>
+          <p>Адаптивная верстка одностраничного сайта. Использовал HTML5, CSS Grid и Flexbox. Полностью оптимизирован
+            под мобильные устройства.</p>
+          <a href="#" class="project-link">Смотреть проект →</a>
+        </div>
+      </div>
+
+      <!-- Проект 2 -->
+      <div class="project-card">
+        <div class="project-img-wrapper">
+          <img src="img/avatar.png" alt="Макет сайта">
+        </div>
+        <div class="project-info">
+          <h3>Сайт-визитка на чистом CSS</h3>
+          <p>Многостраничный сайт с анимациями без использования тяжелых библиотек. Чистый семантический код по
+            методологии БЭМ.</p>
+          <a href="#" class="project-link">Смотреть проект →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="contacts" id="contacts">
+    <h2 class="section-title">Связаться со мной</h2>
+    <div class="contacts-wrapper">
+      <form class="contact-form">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="email" placeholder="Ваш Email" required>
+        <textarea placeholder="Сообщение или техническое задание..." rows="5" required></textarea>
+        <button type="submit" class="btn">Отправить сообщение</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Подвал сайта -->
+  <footer class="footer">
+    <p>© 2026 MyDev. Все права защищены. Сделано с помощью HTML и CSS.</p>
+  </footer>
+</body>
+
+</html>
